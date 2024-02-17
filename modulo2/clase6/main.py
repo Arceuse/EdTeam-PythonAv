@@ -16,6 +16,7 @@ def compress_images(image_folder):
     except Exception as e:
         print('no se pudo comprimir: ', e)
         print('nice')
+        print('lose')
 
 
 if __name__ == '__main__':
