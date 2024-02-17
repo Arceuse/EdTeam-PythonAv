@@ -35,7 +35,6 @@ def get_image(image_file):
         image.thumbnail((500, 500))
         image.show()
         image.save('edcamp22_thumbnail.jpg')
-
     except Exception as e:
         print('no se encontro la imagen: ', e)
 
