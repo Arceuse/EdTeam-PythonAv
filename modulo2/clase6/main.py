@@ -15,6 +15,7 @@ def compress_images(image_folder):
                                    quality=70)
     except Exception as e:
         print('no se pudo comprimir: ', e)
+        print('esto debe ser para main')
 
 
 if __name__ == '__main__':
